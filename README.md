@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Maina & Kids Foundation
 
-## Getting Started
+Welcome aboard, developers!
 
-First, run the development server:
+This is a private project for a non-profit organization called Maina & Kids Foundation. We are located in Nigeria and the goal is to lower the poverty rate, increase the rate of delivering the healthy food to as many children as possible, and offer competitive education to everyone.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Maina & Kids Foundation Home page screenshot](../app/assets/representative-image.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Mission Objective
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Developers-only
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- We will build website application that accommodates wide range of screens from desktop to mobile.
 
-## Learn More
+- We will do our best to accommodate Web Content Accessibility Guidelines (WCAG)
 
-To learn more about Next.js, take a look at the following resources:
+- As of June 13, 2024, the agreement includes the following web pages:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  - Home page
+  - Girl Child page
+  - About Us page
