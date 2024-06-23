@@ -1,0 +1,7 @@
+.table-row-spacing td {
+  padding-bottom: 24px;
+}
+
+.table-row-spacing:last-child td {
+  padding-bottom: 0;
+}

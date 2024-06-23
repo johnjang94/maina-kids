@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 // LOGO
-import Logo from "../assets/logo.jpg";
+import Logo from "../assets/components/logo.jpg";
 
 export default function Navigation() {
   return (
