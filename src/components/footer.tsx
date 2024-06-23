@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="py-12 border-b border-b-black">
         <table className="justify-between w-full">
           <thead className="flex-grow text-left">
-            <tr>
+            <tr className="table-row-spacing">
               <th>Navigation</th>
               <th>Get Involved</th>
               <th>Donation</th>

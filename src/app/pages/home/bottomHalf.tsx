@@ -8,7 +8,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { MdArrowOutward } from "react-icons/md";
 import Link from "next/link";
-import TeamPage from "@/components/profile-card/page";
+import TeamPage from "@/components/profile-card/profileCard";
 
 // TEAM PROFILES
 

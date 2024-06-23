@@ -1,4 +1,5 @@
-.table-row-spacing td {
+.table-row-spacing th,
+td {
   padding-bottom: 24px;
 }
 
