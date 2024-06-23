@@ -1,4 +1,6 @@
 import Image from "next/image";
+import FooterLogo from "../assets/footer-logo.png";
+
 import { FaRegCopyright } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
@@ -8,9 +10,9 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="flex justify-between mx-20 my-10">
+    <div className="flex justify-between mx-9 my-6">
       <div>
-        <Image src="" alt="Footer Logo" />
+        <Image src={FooterLogo} alt="Footer Logo" width={138} />
       </div>
       <div className="flex space-x-2 items-center">
         <span>Maina and kids children foundation</span>

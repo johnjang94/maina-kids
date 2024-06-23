@@ -1,13 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// LOGO
+import Logo from "../assets/logo.jpg";
+
 export default function Navigation() {
   return (
-    <div className="flex justify-between mx-9 my-10">
+    <div className="flex justify-between mx-9 my-3 items-center">
       <div>
-        <Image src="" alt="Logo" />
+        <Image src={Logo} alt="Logo" width={90} className="rounded-full" />
       </div>
-      <div className="justify-between space-x-20">
+      <div className="justify-between space-x-14">
         <Link href="/">
           <button>Home</button>
         </Link>
