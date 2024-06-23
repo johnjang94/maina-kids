@@ -8,9 +8,9 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { MdArrowOutward } from "react-icons/md";
 import Link from "next/link";
+import TeamPage from "@/components/profile-card/page";
 
 // TEAM PROFILES
-import TeamPage from "@/components/profile-card/profile-card";
 
 export default function SectionFiveToSeven() {
   return (
