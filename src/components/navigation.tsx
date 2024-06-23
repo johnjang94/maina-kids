@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navigation() {
   return (
-    <div className="flex justify-between mx-20 my-10">
+    <div className="flex justify-between mx-9 my-10">
       <div>
         <Image src="" alt="Logo" />
       </div>
