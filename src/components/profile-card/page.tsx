@@ -1,6 +1,6 @@
 import Image from "next/image";
 import images from "../../utils/teamImages.js";
-import teamData from "../profile-card/profiles.json";
+import teamData from "./profiles.json";
 
 interface ProfileCardProps {
   imageName: string;
