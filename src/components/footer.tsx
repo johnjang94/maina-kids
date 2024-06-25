@@ -44,11 +44,11 @@ export default function Footer() {
           </tbody>
         </table>
       </div>
-      <div className="flex justify-between mx-9 my-6">
+      <div className="md:flex md:justify-between md:mx-9 my-6">
         <div>
           <Image src={FooterLogo} alt="Footer Logo" width={138} />
         </div>
-        <div className="flex space-x-2 items-center">
+        <div className="flex space-x-2 items-center text-sm md:text-lg">
           <span>Maina and kids children foundation</span>
           <FaRegCopyright />
           <span>2024</span>

@@ -13,7 +13,6 @@ const ProfileCard: React.FC<ProfileCardProps> = ({
   name,
   title,
 }) => {
-  // Function to get the image source based on imageName
   const getImageSource = (imageName: string) => {
     switch (imageName) {
       case "Founder":
@@ -47,7 +46,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({
 
 const TeamPage: React.FC = () => {
   return (
-    <div className="flex items-center mt-10 gap-10 md:grid md:grid-cols-3 md:w-4/6 text-center">
+    <div className="items-center mt-10 gap-10 grid grid-cols-2 md:grid-cols-3 w-full md:w-4/6 text-center">
       {teamData.map((member, index) => (
         <ProfileCard
           key={index}
