@@ -1,8 +1,74 @@
-.table-row-spacing th,
-td {
-  padding-bottom: 24px;
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.table-row-spacing:last-child td {
-  padding-bottom: 0;
+thead th {
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+tbody td {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+td,
+th {
+  padding-left: 1rem;
+}
+
+.table-row-spacing {
+  padding: 0.5rem 0;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.border-b {
+  border-bottom: 1px solid;
+}
+
+.border-b-black {
+  border-bottom-color: black;
+}
+
+.md\\:flex {
+  display: flex;
+}
+
+.md\\:justify-between {
+  justify-content: space-between;
+}
+
+.md\\:mx-9 {
+  margin-left: 2.25rem;
+  margin-right: 2.25rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.space-x-2 > :not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.space-x-10 > :not(:last-child) {
+  margin-right: 2.5rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.md\\:text-lg {
+  font-size: 1.125rem;
 }

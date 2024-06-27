@@ -46,7 +46,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({
 
 const TeamPage: React.FC = () => {
   return (
-    <div className="items-center mt-10 gap-10 grid grid-cols-2 md:grid-cols-3 w-full md:w-4/6 text-center">
+    <div className="items-center mt-10 gap-10 grid grid-cols-2 md:grid-cols-3 w-full md:w-4/6 text-center text-xs md:text-lg">
       {teamData.map((member, index) => (
         <ProfileCard
           key={index}

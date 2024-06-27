@@ -14,32 +14,34 @@ export default function Footer() {
   return (
     <div>
       <div className="py-12 border-b border-b-black">
-        <table className="justify-between w-full">
-          <thead className="flex-grow text-left">
-            <tr className="table-row-spacing">
+        <table className="w-full">
+          <thead>
+            <tr>
               <th>Navigation</th>
               <th>Get Involved</th>
               <th>Donation</th>
             </tr>
           </thead>
-          <tbody className="flex-grow text-left">
-            <tr className="table-row-spacing">
+          <tbody>
+            <tr>
               <td>Home</td>
               <td>Mentorship</td>
               <td>Grant</td>
             </tr>
-            <tr className="table-row-spacing">
+            <tr>
               <td>About Us</td>
               <td>Sponsorship</td>
               <td>Monthly</td>
             </tr>
-            <tr className="table-row-spacing">
+            <tr>
               <td>Girl Child</td>
               <td>Partnership</td>
               <td>Yearly</td>
             </tr>
-            <tr className="table-row-spacing">
+            <tr>
               <td>Contact Us</td>
+              <td></td>
+              <td></td>
             </tr>
           </tbody>
         </table>

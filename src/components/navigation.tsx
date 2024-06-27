@@ -3,13 +3,13 @@ import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 // LOGO
-import Logo from "../assets/components/logo.jpg";
+import Logo from "../assets/components/logo.png";
 
 export default function Navigation() {
   return (
     <div className="flex justify-between mx-9 my-3 items-center">
       <div>
-        <Image src={Logo} alt="Logo" width={90} className="rounded-full" />
+        <Image src={Logo} alt="Logo" className="w-8 md:w-20" />
       </div>
       <div className="hidden md:flex">
         <div className="justify-between space-x-14">
@@ -26,9 +26,9 @@ export default function Navigation() {
             <button>Contact Us</button>
           </Link>
         </div>
-        <div className="md:hidden">
-          <RxHamburgerMenu />
-        </div>
+      </div>
+      <div className="md:hidden">
+        <RxHamburgerMenu className="w-6" />
       </div>
     </div>
   );
