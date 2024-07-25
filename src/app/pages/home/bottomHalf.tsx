@@ -48,7 +48,7 @@ export default function SectionFiveToSeven() {
         <h3 className="text-center text-[#336699] text-xl font-bold">
           PORTFOLIO
         </h3>
-        <h1 className="text-3xl md:text-6xl text-[#443838] text-center font-extrabold mb-10 md:my-2">
+        <h1 className="text-3xl md:text-6xl text-[#443838] text-center font-extrabold md:my-2">
           Our Gallery
         </h1>
         {isMobile && (
@@ -58,13 +58,14 @@ export default function SectionFiveToSeven() {
                 <Image
                   src={image.src}
                   alt={image.alt}
+                  width={450}
                   className="rounded-2xl w-full"
                 />
               </SwiperSlide>
             ))}
           </Swiper>
         )}
-        <div className="hidden md:grid md:grid-cols-3 md:gap-5">
+        <div className="hidden md:grid md:grid-cols-3 md:gap-5 my-10">
           {images.map((image, index) => (
             <Image
               key={index}
@@ -93,10 +94,10 @@ export default function SectionFiveToSeven() {
       </div>
       <div className="my-20">
         {/* ===================== SECTION 6 ====================== */}
-        <h1 className="text-3xl md:text-5xl text-[#443838] text-center font-extrabold">
+        <h1 className="text-3xl md:text-5xl text-[#443838] text-center md:text-start font-extrabold">
           Meet the team
         </h1>
-        <p className="my-6 text-[#443838] text-lg text-center font-normal">
+        <p className="my-6 text-[#443838] text-lg text-center md:text-start font-normal">
           A dedicated team committed to making positive impact in the lives of
           children.
         </p>
